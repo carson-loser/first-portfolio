@@ -1,20 +1,21 @@
-* {
+* { 
   margin: 0;
   padding: 0;
-}
+ }    
 
 body {
-  background-color: #8ecae6;
+  background-color: #81B29A;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
   padding: 20px;
   font-family: 'Raleway', sans-serif; 
-  background-color: #219ebc;
-  color: white;
+  background-color: #F2CC8F;
+  color: black;
 }
 
-header h1 {
+h1 {
   display: inline-block;
   font-size: 35px;
   vertical-align: middle;
@@ -28,45 +29,74 @@ header h1 {
   vertical-align: middle;
   margin-right: 10px;
 }
-  header nav {
+  
+header nav {
     padding-top: 20px;
     margin-right: 20px;
     float: right;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-  }
+}
   
-  header nav ul {
+header nav ul {
     list-style-type: none;
-  }
+}
   
-  header nav ul li {
+header nav ul li {
     display: inline-block;
-    margin-left: 25px;
-    margin-top: 20px;
-  }
+    margin-left: 45px;
+    margin-top: 20px; 
+} 
   
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  .contact-list {
-    
-  }
-  .contact-me,
-  .my-work,
-  .about-me {
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+a {
     color: black;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 50%;
-    margin: auto;
-    
+    text-decoration: none;
+    font-weight: bold;
+}
 
-  }
-  .about-underline {
+.main-content {
+    background-color: #E07A5F;
+    text-align: center;
+    font-size: 25px;
+}
+
+.about-paragraph {
+    margin-bottom: 20px;
+    
+}
+
+.about-underline {
     text-decoration: underline;
-  }
+    margin-bottom: 20px;
+    
+}
+
+.contact-button,
+.work-button,
+.about-button {
+  font-family: 'Raleway', sans-serif ;
+  background-color: #F4F1DE;
+  color: black;
+  padding: 9px 16px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  transition: box-shadow 0.25s;
+  cursor: pointer;
+  margin-right: 0px;
+  
+}
+
+.contact-button:hover,
+.work-button:hover,
+.about-button:hover {
+  box-shadow: 3px 5px 8px rgba( 0, 0, 0, 0.15); 
+}
+
+
+
+
+ 
+    
+  
