@@ -4,7 +4,7 @@
  }    
 
 body {
-  background-color: #81B29A;
+  background-color: #0D3B66;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -27,7 +27,7 @@ h1 {
   object-fit: cover;
   border-radius: 50px;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 20px;
 }
   
 header nav {
@@ -36,7 +36,13 @@ header nav {
     float: right;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+    /* need to get buttons into the middle */
+    /* vertical-align: middle; */
 }
+
+/* .nav-bar-list {
+  vertical-align: middle;
+} */
   
 header nav ul {
     list-style-type: none;
@@ -62,14 +68,34 @@ a {
 
 .about-paragraph {
     margin-bottom: 20px;
+    /* background-color: #3D405B; */
+    /* color: #F4F1DE; */
+    /* color: black; */
     
 }
 
+
+/* .contact-underline, */
+.work-underline,
 .about-underline {
     text-decoration: underline;
     margin-bottom: 20px;
     
+   
+    
 }
+
+/* .contact-underline {
+  margin-top: 600px;
+}  */
+
+
+.contact-underline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
 
 .contact-button,
 .work-button,
@@ -94,8 +120,40 @@ a {
   box-shadow: 3px 5px 8px rgba( 0, 0, 0, 0.15); 
 }
 
+.contact-button:active,
+.work-button:active,
+.about-button:active,
+.main-screenshot:active,
+.preview-screenshot:active {
+  opacity: .5;
+}
 
+.main-screenshot {
+  width: 800px;
+  height: 390px; 
+  object-fit: contain;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
 
+.preview-screenshot:hover,
+.main-screenshot:hover {
+  box-shadow: 3px 5px 8px rgba( 0, 0, 0, 0.15);
+}
+
+.preview-screenshot {
+  width: 386px;
+  height: 165px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  object-fit: cover;
+
+}
+.preview-screenshot {
+  display: inline-block;
+}
 
  
     
