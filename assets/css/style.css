@@ -1,18 +1,18 @@
 * { 
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
  }    
 
 body {
-  background-color: #0D3B66;
-  font-family: 'Raleway', sans-serif;
+  background-color: #81B29A;
 }
 
 header {
   padding: 20px;
-  font-family: 'Raleway', sans-serif; 
   background-color: #F2CC8F;
   color: black;
+  border-bottom: 12px solid #3D405B;
 }
 
 h1 {
@@ -31,11 +31,10 @@ h1 {
 }
   
 header nav {
-    padding-top: 20px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+  padding-top: 20px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
     /* need to get buttons into the middle */
     /* vertical-align: middle; */
 }
@@ -45,62 +44,52 @@ header nav {
 } */
   
 header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
   
 header nav ul li {
-    display: inline-block;
-    margin-left: 45px;
-    margin-top: 20px; 
+  display: inline-block;
+  margin-left: 45px;
+  margin-top: 20px; 
 } 
   
 a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .main-content {
-    background-color: #E07A5F;
-    text-align: center;
-    font-size: 25px;
+  background-color: #81B29A;
+  text-align: center;
+  font-size: 25px;
 }
 
 .about-paragraph {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin:auto;
+  width: 60%;
     /* background-color: #3D405B; */
     /* color: #F4F1DE; */
     /* color: black; */
-    
 }
 
-
-/* .contact-underline, */
 .work-underline,
 .about-underline {
-    text-decoration: underline;
-    margin-bottom: 20px;
-    
-   
-    
+  text-decoration: underline;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-
-/* .contact-underline {
-  margin-top: 600px;
-}  */
-
-
+ 
 .contact-underline {
   margin-top: 20px;
   margin-bottom: 20px;
   text-decoration: underline;
 }
 
-
 .contact-button,
 .work-button,
 .about-button {
-  font-family: 'Raleway', sans-serif ;
   background-color: #F4F1DE;
   color: black;
   padding: 9px 16px;
@@ -111,20 +100,22 @@ a {
   transition: box-shadow 0.25s;
   cursor: pointer;
   margin-right: 0px;
-  
 }
 
+.main-screenshot:hover,
+.preview-screenshot:hover,
 .contact-button:hover,
 .work-button:hover,
 .about-button:hover {
   box-shadow: 3px 5px 8px rgba( 0, 0, 0, 0.15); 
 }
 
+/* .top-left:active, */
+.main-screenshot:active,
+.preview-screenshot:active,
 .contact-button:active,
 .work-button:active,
-.about-button:active,
-.main-screenshot:active,
-.preview-screenshot:active {
+.about-button:active {
   opacity: .5;
 }
 
@@ -133,12 +124,13 @@ a {
   height: 390px; 
   object-fit: contain;
   cursor: pointer;
-  margin-bottom: 20px;
-}
-
-.preview-screenshot:hover,
-.main-screenshot:hover {
-  box-shadow: 3px 5px 8px rgba( 0, 0, 0, 0.15);
+  
+   /* background-size: cover; 
+  background-position: center; 
+   display: flex; */
+   justify-content: flex-end; 
+   align-items: flex-end;  
+ 
 }
 
 .preview-screenshot {
@@ -151,10 +143,35 @@ a {
   object-fit: cover;
 
 }
-.preview-screenshot {
-  display: inline-block;
-}
+ .container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+ }
 
- 
-    
+ .bottom-left {
+  position: absolute;
+  bottom: 7px;
+  left: 552px;
+  background-color:#F2CC8F;
+  padding: 25px;
+  /* height: 40px;
+  width: 300px; */
+}   
   
+ /* .container-preview {
+  display: flex;
+  flex-direction: column;
+}  */
+
+ /* #main-image {
+   background-image: url("../images/Horiseon-SC.PNG"); 
+}  */
+
+/* @media screen and (max-width: 368px) {
+  .picture-column a{
+    display:flex !important;
+    flex-direction: column !important;
+  }
+} */
