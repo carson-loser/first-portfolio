@@ -35,13 +35,9 @@ header nav {
   margin-right: 20px;
   float: right;
   font-size: 20px;
-    /* need to get buttons into the middle */
-    /* vertical-align: middle; */
 }
 
-/* .nav-bar-list {
-  vertical-align: middle;
-} */
+
   
 header nav ul {
   list-style-type: none;
@@ -170,6 +166,7 @@ a {
   position: absolute;
   bottom: 7px;
   left: 552px;
+  
   background-color:#F2CC8F;
   padding: 15px;
   font-size: 18px;
@@ -188,12 +185,12 @@ footer {
   list-style-type:lower-alpha;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .card {
       display: flex;
-       flex-wrap: wrap;  
+      flex-wrap: wrap;  
       justify-content: center;
       align-items: center;
       flex-direction: column; 
   }
-}
+} */
