@@ -59,11 +59,11 @@ a {
   font-weight: bold;
 }
 
-.main-content {
+ .main-content {
   background-color: #81B29A;
   text-align: center;
   font-size: 25px;
-}
+} 
 
 .about-paragraph {
   margin-bottom: 20px;
@@ -86,6 +86,11 @@ a {
   margin-bottom: 20px;
   text-decoration: underline;
 }
+
+
+  
+  
+
 
 .contact-button,
 .work-button,
@@ -169,22 +174,6 @@ a {
   padding: 15px;
   font-size: 18px;
 }   
-  
- /* .container-preview {
-  display: flex;
-  flex-direction: column;
-}  */
-
- /* #main-image {
-   background-image: url("../images/Horiseon-SC.PNG"); 
-}  */
-
-/* @media screen and (max-width: 368px) {
-  .picture-column a{
-    display:flex !important;
-    flex-direction: column !important;
-  }
-} */
 
 footer {
   background-color: #3D405B;
@@ -199,4 +188,12 @@ footer {
   list-style-type:lower-alpha;
 }
 
-@media screen and (max-width: 320)
+@media screen and (max-width: 768px) {
+  .card {
+      display: flex;
+       flex-wrap: wrap;  
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; 
+  }
+}
