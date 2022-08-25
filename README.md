@@ -10,7 +10,7 @@
 
 * Navagation links & UI scroll to their corresponding sections.
 
-* The 'About Me' link in the Navagation bar scrolls to a section with titled images of the developer's current applications.
+* The 'My Work' link in the Navagation bar scrolls to a section with titled images of the developer's current applications.
 
 * The developer's first application image should be larger in size than the others.
 
