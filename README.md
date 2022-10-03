@@ -27,4 +27,4 @@
 
 The following image demonstrates the web application's appearance and functionality:
 
-![Shows a heading with company name and functional nav bar. Images load clearly and correctly](./assets/Portfolio-SC.png)
+![Shows a heading with company name and functional nav bar. Images load clearly and correctly](./assets/images/Portfolio-SC.png)
